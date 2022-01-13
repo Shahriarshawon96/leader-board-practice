@@ -1,3 +1,4 @@
+
 /* font  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -12,30 +13,30 @@ body{font-family: 'Poppins', sans-serif; background-color:#E5E5E5;
 
 main{
 
-    display: flex; justify-content: center;
+    display: flex; align-items: center; flex-direction: column;
 
 }
 .container{
 
     width: 862px; 
-    background-color:#FFFFFF; 
+    background-color:#FFFFFF; border-radius: 10px; margin-top: 21px;
     
 
 
 }
 .top-players{
-
+margin-bottom: 30px;
 
 
 }
 .title{
 
-padding-left: 30px; color: blue; padding-top: 30px;
+padding-left: 30px; color: blue; padding-top: 31px;
 
 
 }
 
-.players{display: grid; grid-template-columns: repeat(3,1fr); 
+.players{display: grid; grid-template-columns: repeat(3,1fr); grid-row-gap:30px;
 
 }
 .player img{
@@ -44,18 +45,84 @@ padding-left: 30px; color: blue; padding-top: 30px;
 .player{ display: flex; padding-left: 26px;
     
 }
+.player-name{
+    padding-left: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1; 
+}
+/* top blogs style  */
+
+.blog .thambail img{
+    width: 177px;
+height: 117px;
+
+}
+.blog{
+    display:flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blogs{
+    margin-left: 30px; display: grid; grid-template-columns: repeat(2, 1fr);
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+}
+/* courses style ------------------------------------ */
+.parent{
+    display: flex; row-gap: 20px;
+}
 
 
 
+.course-banner img{
+    width: 224px;
+height: 104px;
+}
+.course{
+    margin-left: 30px;
 
+}
+.courses{
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); margin-right: 10px; margin-left: 10px; height: 300px;
+}
 
+.course-author{
 
+color: 
+#ED6B4F;
 
+}
+.course-detail{display: flex; flex-direction:row; justify-content: space-between;
+    
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.fild{ color: gold;
+  
+}
+.fa-star.emty{
+    color: gray;
+}
+.course-duration{ background: #FFE4E8;
+    border-radius: 14.6913px; color: 
+    #ED6B4F;
 
-
-
-
-
+}
+.gry{
+    
+color: 
+#A2A2A2;
+}
 
 
 
